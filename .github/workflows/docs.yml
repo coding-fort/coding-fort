@@ -1,4 +1,4 @@
-name: CODING FORT - 前端知识框架
+name: Manual Deployment
 
 on:
   # 每当 push 到 main 分支时触发部署
@@ -14,7 +14,7 @@ jobs:
       pull-requests: write # 对拉取请求的读写权限
       issues: read # 对问题的只读权限
       # 可以添加更多权限，如 packages, checks, deployments 等等
-      
+
     steps:
       - uses: actions/checkout@v4
         with:

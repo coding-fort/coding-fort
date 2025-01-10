@@ -11,9 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read # 只读访问仓库内容
+      contents: write # 只读访问仓库内容
       pages: write # 写入权限以更新 GitHub Pages
-      id-token: write # 如果需要 OIDC token (通常不需要)
 
     steps:
       - name: Checkout repository

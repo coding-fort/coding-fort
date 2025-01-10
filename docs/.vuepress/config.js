@@ -22,7 +22,6 @@ module.exports = {
   head: [["link", { rel: "stylesheet", href: "./styles/index.styl" }]],
   title: "CODING FORT | 前端知识框架",
   description: "前端知识框架",
-  dest: "./dist",
   base: "/coding-fort/",
   port: 8080,
   plugins: [

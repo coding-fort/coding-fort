@@ -4,6 +4,7 @@ node_modules
 /src/verificaPlugin.js
 /src/utils/dk.js
 /dist/
+/docs/.vuepress/dist/
 
 # local env files
 .env.local

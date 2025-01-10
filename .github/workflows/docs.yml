@@ -1,55 +1,40 @@
-name: Manual Deployment
+name: Build and Deploy VuePress to GitHub Pages
 
 on:
-  # 每当 push 到 main 分支时触发部署
   push:
-    branches: [main]
+    branches:
+      - main # 当推送到 main 分支时触发
+  workflow_dispatch: # 允许手动触发此工作流
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    # 允许对仓库的写权限，用于部署站点
+
     permissions:
-      contents: write # 对仓库内容的读写权限
-      pull-requests: write # 对拉取请求的读写权限
-      issues: read # 对问题的只读权限
-      # 可以添加更多权限，如 packages, checks, deployments 等等
+      contents: read # 只读访问仓库内容
+      pages: write # 写入权限以更新 GitHub Pages
+      id-token: write # 如果需要 OIDC token (通常不需要)
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
         with:
-          # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
-          fetch-depth: 0
+          submodules: true # 如果你的项目依赖于子模块，请设置为 true
 
-      - name: 设置 pnpm
-        uses: pnpm/action-setup@v4
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
         with:
-          version: latest # 或者指定具体版本，如 '7.25.0'
+          node-version: "16" # 使用 VuePress 支持的 Node 版本，这里选择 16.x
 
-      - name: 设置 Node.js
-        uses: actions/setup-node@v4
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build VuePress site
+        run: npm run docs:build # 根据你的 package.json 中定义的脚本调整
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          # 选择要使用的 node 版本
-          node-version: 22
-          # 缓存 pnpm 依赖
-          cache: pnpm
-
-      - name: 安装依赖
-        run: pnpm install --frozen-lockfile
-
-      # 运行构建脚本
-      - name: 构建 VuePress 站点
-        run: pnpm docs:build
-
-      # 查看 workflow 的文档来获取更多信息
-      # @see https://github.com/crazy-max/ghaction-github-pages
-      - name: 部署到 GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          # 部署到 gh-pages 分支
-          target_branch: gh-pages
-          # 部署目录为 VuePress 的默认输出目录
-          build_dir: docs/.vuepress/dist
-        env:
-          # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vuepress/dist # 构建输出目录，请根据实际情况修改
+          force_orphan: true # 确保每次部署都是干净的状态

@@ -4,20 +4,20 @@
       "text": "编程基础",
       "items": [
         {
+          "text": "CSS",
+          "link": "/views/编程基础/CSS/"
+        },
+        {
+          "text": "HTML",
+          "link": "/views/编程基础/HTML/"
+        },
+        {
           "text": "JavaScript",
           "link": "/views/编程基础/JavaScript/"
         },
         {
           "text": "TypeScript",
           "link": "/views/编程基础/TypeScript/"
-        },
-        {
-          "text": "css",
-          "link": "/views/编程基础/css/"
-        },
-        {
-          "text": "html",
-          "link": "/views/编程基础/html/"
         },
         {
           "text": "前端规范",
@@ -35,6 +35,48 @@
     }
   ],
   "sidebar": {
+    "/views/编程基础/CSS": [
+      {
+        "title": "CSS",
+        "children": [
+          {
+            "title": "select",
+            "path": "/views/编程基础/CSS/select"
+          },
+          {
+            "title": "多级样式布局",
+            "path": "/views/编程基础/CSS/多级样式布局"
+          },
+          {
+            "title": "盒模型",
+            "path": "/views/编程基础/CSS/盒模型"
+          },
+          {
+            "title": "页面布局样式",
+            "path": "/views/编程基础/CSS/页面布局样式"
+          }
+        ]
+      }
+    ],
+    "/views/编程基础/HTML": [
+      {
+        "title": "HTML",
+        "children": [
+          {
+            "title": "dom",
+            "path": "/views/编程基础/HTML/dom"
+          },
+          {
+            "title": "element",
+            "path": "/views/编程基础/HTML/element"
+          },
+          {
+            "title": "format",
+            "path": "/views/编程基础/HTML/format"
+          }
+        ]
+      }
+    ],
     "/views/编程基础/JavaScript": [
       {
         "title": "JavaScript",
@@ -254,48 +296,6 @@
           {
             "title": "高级类型",
             "path": "/views/编程基础/TypeScript/高级类型"
-          }
-        ]
-      }
-    ],
-    "/views/编程基础/css": [
-      {
-        "title": "css",
-        "children": [
-          {
-            "title": "select",
-            "path": "/views/编程基础/css/select"
-          },
-          {
-            "title": "多级样式布局",
-            "path": "/views/编程基础/css/多级样式布局"
-          },
-          {
-            "title": "盒模型",
-            "path": "/views/编程基础/css/盒模型"
-          },
-          {
-            "title": "页面布局样式",
-            "path": "/views/编程基础/css/页面布局样式"
-          }
-        ]
-      }
-    ],
-    "/views/编程基础/html": [
-      {
-        "title": "html",
-        "children": [
-          {
-            "title": "dom",
-            "path": "/views/编程基础/html/dom"
-          },
-          {
-            "title": "element",
-            "path": "/views/编程基础/html/element"
-          },
-          {
-            "title": "format",
-            "path": "/views/编程基础/html/format"
           }
         ]
       }

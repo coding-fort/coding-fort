@@ -6,15 +6,12 @@
 
 ## 目录概览
 
-- [HTML](./html/README.md)：超文本标记语言是网页的基础。
-- [CSS](./css/README.md)：层叠样式表用于描述文档的外观。
-- [JavaScript](./javascript/README.md)：一种广泛用于网站开发的编程语言。
-- [框架与库](./frameworks/README.md)
-  - [Vue.js](./frameworks/vuejs.md)：渐进式 JavaScript 框架。
-  - [React](./frameworks/react.md)：用于构建用户界面的 JavaScript 库。
-  - [Angular](./frameworks/angular.md)：完整的前端应用开发平台。
-- [工具](./tools/README.md)：从编辑器到构建工具的各种前端开发工具。
-- [最佳实践](./best-practices/README.md)：提升代码质量和开发效率的最佳实践指南。
+- [HTML](/views/编程基础/HTML)：超文本标记语言是网页的基础。
+- [CSS](/views/编程基础/CSS)：层叠样式表用于描述文档的外观。
+- [JavaScript](/views/编程基础/JavaScript)：一种广泛用于网站开发的编程语言。
+- [框架与库](/views/类库框架)
+  - [Vue](/views/类库框架/开发库/Vue)：渐进式 JavaScript 框架。
+  - [React](/views/类库框架/开发库/React)：用于构建用户界面的 JavaScript 库。
 
 ## 开始学习
 

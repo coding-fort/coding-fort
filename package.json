@@ -14,11 +14,11 @@
   "author": "gongmingzhuang",
   "license": "ISC",
   "devDependencies": {
-    "fs": "0.0.1-security",
-    "vuepress": "1.8.2"
+    "fs": "^0.0.1-security",
+    "vuepress": "^1.8.2"
   },
   "dependencies": {
-    "body-parser": "1.20.3",
-    "express": "4.21.1"
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1"
   }
 }

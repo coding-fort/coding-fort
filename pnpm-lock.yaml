@@ -12,14 +12,14 @@ importers:
         specifier: ^1.20.3
         version: 1.20.3(supports-color@6.1.0)
       express:
-        specifier: ^4.21.2
+        specifier: ^4.21.1
         version: 4.21.2(supports-color@6.1.0)
     devDependencies:
       fs:
-        specifier: 0.0.1-security
+        specifier: ^0.0.1-security
         version: 0.0.1-security
       vuepress:
-        specifier: ^1.9.10
+        specifier: ^1.8.2
         version: 1.9.10(@vue/compiler-sfc@3.5.13)(hogan.js@3.0.2)(lodash@4.17.21)
 
 packages:

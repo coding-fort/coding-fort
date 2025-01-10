@@ -8,7 +8,13 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+    # 允许对仓库的写权限，用于部署站点
+    permissions:
+      contents: write # 对仓库内容的读写权限
+      pull-requests: write # 对拉取请求的读写权限
+      issues: read # 对问题的只读权限
+      # 可以添加更多权限，如 packages, checks, deployments 等等
+      
     steps:
       - uses: actions/checkout@v4
         with:

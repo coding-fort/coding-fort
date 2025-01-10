@@ -1,0 +1,237 @@
+{
+  "nav": [
+    {
+      "text": "计算机基础",
+      "items": [
+        {
+          "text": "性能安全",
+          "link": "/views/计算机基础/性能安全/"
+        },
+        {
+          "text": "操作系统",
+          "link": "/views/计算机基础/操作系统/"
+        },
+        {
+          "text": "数据结构",
+          "link": "/views/计算机基础/数据结构/"
+        },
+        {
+          "text": "算法",
+          "link": "/views/计算机基础/算法/"
+        },
+        {
+          "text": "编译原理",
+          "link": "/views/计算机基础/编译原理/"
+        },
+        {
+          "text": "计算机网络",
+          "link": "/views/计算机基础/计算机网络/"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/计算机基础/性能安全": [
+      {
+        "title": "性能安全",
+        "children": [
+          {
+            "title": "安全",
+            "children": [
+              {
+                "title": "CSP",
+                "path": "/views/计算机基础/性能安全/安全/CSP"
+              },
+              {
+                "title": "CSRF",
+                "path": "/views/计算机基础/性能安全/安全/CSRF"
+              },
+              {
+                "title": "SOP",
+                "path": "/views/计算机基础/性能安全/安全/SOP"
+              },
+              {
+                "title": "SQL 注入",
+                "path": "/views/计算机基础/性能安全/安全/SQL 注入"
+              },
+              {
+                "title": "XSS",
+                "path": "/views/计算机基础/性能安全/安全/XSS"
+              },
+              {
+                "title": "接口加密",
+                "path": "/views/计算机基础/性能安全/安全/接口加密"
+              }
+            ]
+          },
+          {
+            "title": "性能",
+            "children": [
+              {
+                "title": "性能指标",
+                "path": "/views/计算机基础/性能安全/性能/性能指标"
+              },
+              {
+                "title": "评估工具",
+                "path": "/views/计算机基础/性能安全/性能/评估工具"
+              }
+            ]
+          },
+          {
+            "title": "浏览器",
+            "children": [
+              {
+                "title": "Chrome(Blink)",
+                "path": "/views/计算机基础/性能安全/浏览器/Chrome(Blink)"
+              },
+              {
+                "title": "Edge(EdgeHTML)",
+                "path": "/views/计算机基础/性能安全/浏览器/Edge(EdgeHTML)"
+              },
+              {
+                "title": "Firefox(Gecko)",
+                "path": "/views/计算机基础/性能安全/浏览器/Firefox(Gecko)"
+              },
+              {
+                "title": "IE(Trident)",
+                "path": "/views/计算机基础/性能安全/浏览器/IE(Trident)"
+              },
+              {
+                "title": "Opera(Blink)",
+                "path": "/views/计算机基础/性能安全/浏览器/Opera(Blink)"
+              },
+              {
+                "title": "Safari(WebKit)",
+                "path": "/views/计算机基础/性能安全/浏览器/Safari(WebKit)"
+              }
+            ]
+          },
+          {
+            "title": "网络通信",
+            "children": [
+              {
+                "title": "API 风格",
+                "path": "/views/计算机基础/性能安全/网络通信/API 风格"
+              },
+              {
+                "title": "通信协议",
+                "path": "/views/计算机基础/性能安全/网络通信/通信协议"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "/views/计算机基础/操作系统": [
+      {
+        "title": "操作系统",
+        "children": [
+          {
+            "title": "Mobile",
+            "children": [
+              {
+                "title": "Android",
+                "path": "/views/计算机基础/操作系统/Mobile/Android"
+              },
+              {
+                "title": "IOS",
+                "path": "/views/计算机基础/操作系统/Mobile/IOS"
+              }
+            ]
+          },
+          {
+            "title": "PC",
+            "children": [
+              {
+                "title": "Linux",
+                "path": "/views/计算机基础/操作系统/PC/Linux"
+              },
+              {
+                "title": "Mac OS",
+                "path": "/views/计算机基础/操作系统/PC/Mac OS"
+              },
+              {
+                "title": "Unix",
+                "path": "/views/计算机基础/操作系统/PC/Unix"
+              },
+              {
+                "title": "Windows",
+                "path": "/views/计算机基础/操作系统/PC/Windows"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "/views/计算机基础/数据结构": [
+      {
+        "title": "数据结构",
+        "children": [
+          {
+            "title": "哈希表（Map）",
+            "path": "/views/计算机基础/数据结构/哈希表（Map）"
+          },
+          {
+            "title": "堆（Heap）",
+            "path": "/views/计算机基础/数据结构/堆（Heap）"
+          },
+          {
+            "title": "数组（Array）",
+            "path": "/views/计算机基础/数据结构/数组（Array）"
+          },
+          {
+            "title": "栈（Stack）",
+            "path": "/views/计算机基础/数据结构/栈（Stack）"
+          },
+          {
+            "title": "树（Tree）",
+            "path": "/views/计算机基础/数据结构/树（Tree）"
+          },
+          {
+            "title": "链表（Linked List）",
+            "path": "/views/计算机基础/数据结构/链表（Linked List）"
+          },
+          {
+            "title": "队列（Queue）",
+            "path": "/views/计算机基础/数据结构/队列（Queue）"
+          },
+          {
+            "title": "集合（Set）",
+            "path": "/views/计算机基础/数据结构/集合（Set）"
+          }
+        ]
+      }
+    ],
+    "/views/计算机基础/算法": [
+      {
+        "title": "算法",
+        "children": [
+          {
+            "title": "Diff",
+            "children": []
+          },
+          {
+            "title": "排序",
+            "children": []
+          },
+          {
+            "title": "检索",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "/views/计算机基础/编译原理": [
+      {
+        "title": "编译原理",
+        "children": []
+      }
+    ],
+    "/views/计算机基础/计算机网络": [
+      {
+        "title": "计算机网络",
+        "children": []
+      }
+    ]
+  }
+}

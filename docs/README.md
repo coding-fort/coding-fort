@@ -1,0 +1,40 @@
+# 欢迎来到前端知识框架
+
+## 简介
+
+欢迎来到我们的前端知识框架！这里是前端开发者学习和分享的平台。我们致力于为初学者提供易于理解的学习资源，同时也为有经验的开发人员提供了深入探讨技术细节的机会。本框架涵盖了 HTML、CSS、JavaScript 以及各种流行的前端框架和库，如 Vue.js、React 和 Angular 等。
+
+## 目录概览
+
+- [HTML](./html/README.md)：超文本标记语言是网页的基础。
+- [CSS](./css/README.md)：层叠样式表用于描述文档的外观。
+- [JavaScript](./javascript/README.md)：一种广泛用于网站开发的编程语言。
+- [框架与库](./frameworks/README.md)
+  - [Vue.js](./frameworks/vuejs.md)：渐进式 JavaScript 框架。
+  - [React](./frameworks/react.md)：用于构建用户界面的 JavaScript 库。
+  - [Angular](./frameworks/angular.md)：完整的前端应用开发平台。
+- [工具](./tools/README.md)：从编辑器到构建工具的各种前端开发工具。
+- [最佳实践](./best-practices/README.md)：提升代码质量和开发效率的最佳实践指南。
+
+## 开始学习
+
+无论你是前端新手还是老手，我们都有适合你的内容。点击下面的链接开始你的前端之旅吧！
+
+- [快速入门](./quick-start.md)：了解如何设置开发环境并创建第一个网页。
+- [高级教程](./advanced-topics.md)：深入探讨前端开发中的复杂主题。
+- [项目实战](./project-based-learning.md)：通过实际项目来巩固所学知识。
+
+## 社区与贡献
+
+这是一个开放的社区，我们鼓励大家参与进来。你可以提出问题、分享解决方案或直接贡献新的内容。如果你发现了错误或者有改进的想法，请不要犹豫，向我们提交一个 Pull Request。
+
+- [如何贡献](./contributing.md)：查看贡献指南以了解如何帮助改进这个知识框架。
+- [问题反馈](https://github.com/your-repo/issues)：访问我们的 GitHub 仓库报告问题或建议新功能。
+
+## 关于我们
+
+这个知识框架是由一群热爱前端开发的工程师共同维护的。我们相信分享知识的力量，并希望每个人都能从中受益。如果您有任何疑问或需要帮助，请随时联系我们的团队。
+
+---
+
+_最后更新时间：2025 年 1 月 9 日_

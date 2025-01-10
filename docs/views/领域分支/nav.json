@@ -1,0 +1,153 @@
+{
+  "nav": [
+    {
+      "text": "领域分支",
+      "items": [
+        {
+          "text": "AI 应用开发",
+          "link": "/views/领域分支/AI 应用开发/"
+        },
+        {
+          "text": "便携式设备",
+          "link": "/views/领域分支/便携式设备/"
+        },
+        {
+          "text": "可视化",
+          "link": "/views/领域分支/可视化/"
+        },
+        {
+          "text": "游戏开发",
+          "link": "/views/领域分支/游戏开发/"
+        },
+        {
+          "text": "移动Web",
+          "link": "/views/领域分支/移动Web/"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/领域分支/AI 应用开发": [
+      {
+        "title": "AI 应用开发",
+        "children": []
+      }
+    ],
+    "/views/领域分支/便携式设备": [
+      {
+        "title": "便携式设备",
+        "children": []
+      }
+    ],
+    "/views/领域分支/可视化": [
+      {
+        "title": "可视化",
+        "children": [
+          {
+            "title": "Canvas 2D",
+            "children": [
+              {
+                "title": "Echarts",
+                "path": "/views/领域分支/可视化/Canvas 2D/Echarts"
+              },
+              {
+                "title": "HighCharts",
+                "path": "/views/领域分支/可视化/Canvas 2D/HighCharts"
+              }
+            ]
+          },
+          {
+            "title": "SVG",
+            "children": [
+              {
+                "title": "D3",
+                "path": "/views/领域分支/可视化/SVG/D3"
+              },
+              {
+                "title": "Raphael",
+                "path": "/views/领域分支/可视化/SVG/Raphael"
+              },
+              {
+                "title": "Snap",
+                "path": "/views/领域分支/可视化/SVG/Snap"
+              },
+              {
+                "title": "html svg",
+                "path": "/views/领域分支/可视化/SVG/html svg"
+              }
+            ]
+          },
+          {
+            "title": "WebGL",
+            "children": [
+              {
+                "title": "Three",
+                "path": "/views/领域分支/可视化/WebGL/Three"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "/views/领域分支/游戏开发": [
+      {
+        "title": "游戏开发",
+        "children": [
+          {
+            "title": "Cocos2d",
+            "path": "/views/领域分支/游戏开发/Cocos2d"
+          },
+          {
+            "title": "Egret Engine",
+            "path": "/views/领域分支/游戏开发/Egret Engine"
+          }
+        ]
+      }
+    ],
+    "/views/领域分支/移动Web": [
+      {
+        "title": "移动Web",
+        "children": [
+          {
+            "title": "Web to Native",
+            "children": [
+              {
+                "title": "Flutter",
+                "path": "/views/领域分支/移动Web/Web to Native/Flutter"
+              },
+              {
+                "title": "React Native",
+                "path": "/views/领域分支/移动Web/Web to Native/React Native"
+              },
+              {
+                "title": "Weex",
+                "path": "/views/领域分支/移动Web/Web to Native/Weex"
+              }
+            ]
+          },
+          {
+            "title": "WebView",
+            "children": [
+              {
+                "title": "JQuery Mobile",
+                "path": "/views/领域分支/移动Web/WebView/JQuery Mobile"
+              },
+              {
+                "title": "Zepto",
+                "path": "/views/领域分支/移动Web/WebView/Zepto"
+              }
+            ]
+          },
+          {
+            "title": "响应式网页设计",
+            "children": []
+          },
+          {
+            "title": "小程序",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

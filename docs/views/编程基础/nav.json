@@ -1,0 +1,603 @@
+{
+  "nav": [
+    {
+      "text": "编程基础",
+      "items": [
+        {
+          "text": "JavaScript",
+          "link": "/views/编程基础/JavaScript/"
+        },
+        {
+          "text": "TypeScript",
+          "link": "/views/编程基础/TypeScript/"
+        },
+        {
+          "text": "css",
+          "link": "/views/编程基础/css/"
+        },
+        {
+          "text": "html",
+          "link": "/views/编程基础/html/"
+        },
+        {
+          "text": "前端规范",
+          "link": "/views/编程基础/前端规范/"
+        },
+        {
+          "text": "开发软件",
+          "link": "/views/编程基础/开发软件/"
+        },
+        {
+          "text": "编程思想",
+          "link": "/views/编程基础/编程思想/"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/编程基础/JavaScript": [
+      {
+        "title": "JavaScript",
+        "children": [
+          {
+            "title": "ECMAScript标准",
+            "children": [
+              {
+                "title": "ES10",
+                "path": "/views/编程基础/JavaScript/ECMAScript标准/ES10"
+              },
+              {
+                "title": "ES2020",
+                "path": "/views/编程基础/JavaScript/ECMAScript标准/ES2020"
+              },
+              {
+                "title": "ES2021",
+                "path": "/views/编程基础/JavaScript/ECMAScript标准/ES2021"
+              },
+              {
+                "title": "ES2022",
+                "path": "/views/编程基础/JavaScript/ECMAScript标准/ES2022"
+              },
+              {
+                "title": "ES2023",
+                "path": "/views/编程基础/JavaScript/ECMAScript标准/ES2023"
+              },
+              {
+                "title": "ES5",
+                "path": "/views/编程基础/JavaScript/ECMAScript标准/ES5"
+              },
+              {
+                "title": "ES6",
+                "path": "/views/编程基础/JavaScript/ECMAScript标准/ES6"
+              },
+              {
+                "title": "ES7",
+                "path": "/views/编程基础/JavaScript/ECMAScript标准/ES7"
+              },
+              {
+                "title": "ES8",
+                "path": "/views/编程基础/JavaScript/ECMAScript标准/ES8"
+              },
+              {
+                "title": "ES9",
+                "path": "/views/编程基础/JavaScript/ECMAScript标准/ES9"
+              }
+            ]
+          },
+          {
+            "title": "constructor、__proto__、prototype",
+            "path": "/views/编程基础/JavaScript/constructor、__proto__、prototype"
+          },
+          {
+            "title": "事件",
+            "path": "/views/编程基础/JavaScript/事件"
+          },
+          {
+            "title": "事件循环",
+            "path": "/views/编程基础/JavaScript/事件循环"
+          },
+          {
+            "title": "作用域",
+            "path": "/views/编程基础/JavaScript/作用域"
+          },
+          {
+            "title": "作用域链",
+            "path": "/views/编程基础/JavaScript/作用域链"
+          },
+          {
+            "title": "函数",
+            "path": "/views/编程基础/JavaScript/函数"
+          },
+          {
+            "title": "函数与构造函数",
+            "path": "/views/编程基础/JavaScript/函数与构造函数"
+          },
+          {
+            "title": "原型",
+            "path": "/views/编程基础/JavaScript/原型"
+          },
+          {
+            "title": "原型与构造函数",
+            "path": "/views/编程基础/JavaScript/原型与构造函数"
+          },
+          {
+            "title": "原型链",
+            "path": "/views/编程基础/JavaScript/原型链"
+          },
+          {
+            "title": "封装、继承、多态",
+            "path": "/views/编程基础/JavaScript/封装、继承、多态"
+          },
+          {
+            "title": "异步",
+            "path": "/views/编程基础/JavaScript/异步"
+          },
+          {
+            "title": "构造函数",
+            "path": "/views/编程基础/JavaScript/构造函数"
+          },
+          {
+            "title": "正则",
+            "path": "/views/编程基础/JavaScript/正则"
+          },
+          {
+            "title": "浏览器渲染原理",
+            "path": "/views/编程基础/JavaScript/浏览器渲染原理"
+          },
+          {
+            "title": "立即执行函数",
+            "path": "/views/编程基础/JavaScript/立即执行函数"
+          },
+          {
+            "title": "类型",
+            "path": "/views/编程基础/JavaScript/类型"
+          },
+          {
+            "title": "编译原理",
+            "path": "/views/编程基础/JavaScript/编译原理"
+          },
+          {
+            "title": "闭包",
+            "path": "/views/编程基础/JavaScript/闭包"
+          },
+          {
+            "title": "隐式转换",
+            "path": "/views/编程基础/JavaScript/隐式转换"
+          }
+        ]
+      }
+    ],
+    "/views/编程基础/TypeScript": [
+      {
+        "title": "TypeScript",
+        "children": [
+          {
+            "title": "函数",
+            "path": "/views/编程基础/TypeScript/函数"
+          },
+          {
+            "title": "协变与逆变",
+            "path": "/views/编程基础/TypeScript/协变与逆变"
+          },
+          {
+            "title": "变量声明",
+            "path": "/views/编程基础/TypeScript/变量声明"
+          },
+          {
+            "title": "命名空间",
+            "path": "/views/编程基础/TypeScript/命名空间"
+          },
+          {
+            "title": "基本数据类型",
+            "path": "/views/编程基础/TypeScript/基本数据类型"
+          },
+          {
+            "title": "基础篇",
+            "path": "/views/编程基础/TypeScript/基础篇"
+          },
+          {
+            "title": "声明文件",
+            "path": "/views/编程基础/TypeScript/声明文件"
+          },
+          {
+            "title": "工具库",
+            "path": "/views/编程基础/TypeScript/工具库"
+          },
+          {
+            "title": "接口",
+            "path": "/views/编程基础/TypeScript/接口"
+          },
+          {
+            "title": "模块",
+            "path": "/views/编程基础/TypeScript/模块"
+          },
+          {
+            "title": "泛型",
+            "path": "/views/编程基础/TypeScript/泛型"
+          },
+          {
+            "title": "类",
+            "path": "/views/编程基础/TypeScript/类"
+          },
+          {
+            "title": "类型保护",
+            "path": "/views/编程基础/TypeScript/类型保护"
+          },
+          {
+            "title": "类型兼容性",
+            "path": "/views/编程基础/TypeScript/类型兼容性"
+          },
+          {
+            "title": "类型别名",
+            "path": "/views/编程基础/TypeScript/类型别名"
+          },
+          {
+            "title": "类型声明",
+            "path": "/views/编程基础/TypeScript/类型声明"
+          },
+          {
+            "title": "类型推断",
+            "path": "/views/编程基础/TypeScript/类型推断"
+          },
+          {
+            "title": "类型断言",
+            "path": "/views/编程基础/TypeScript/类型断言"
+          },
+          {
+            "title": "编译选项",
+            "path": "/views/编程基础/TypeScript/编译选项"
+          },
+          {
+            "title": "装饰器",
+            "path": "/views/编程基础/TypeScript/装饰器"
+          },
+          {
+            "title": "高级类型",
+            "path": "/views/编程基础/TypeScript/高级类型"
+          }
+        ]
+      }
+    ],
+    "/views/编程基础/css": [
+      {
+        "title": "css",
+        "children": [
+          {
+            "title": "select",
+            "path": "/views/编程基础/css/select"
+          },
+          {
+            "title": "多级样式布局",
+            "path": "/views/编程基础/css/多级样式布局"
+          },
+          {
+            "title": "盒模型",
+            "path": "/views/编程基础/css/盒模型"
+          },
+          {
+            "title": "页面布局样式",
+            "path": "/views/编程基础/css/页面布局样式"
+          }
+        ]
+      }
+    ],
+    "/views/编程基础/html": [
+      {
+        "title": "html",
+        "children": [
+          {
+            "title": "dom",
+            "path": "/views/编程基础/html/dom"
+          },
+          {
+            "title": "element",
+            "path": "/views/编程基础/html/element"
+          },
+          {
+            "title": "format",
+            "path": "/views/编程基础/html/format"
+          }
+        ]
+      }
+    ],
+    "/views/编程基础/前端规范": [
+      {
+        "title": "前端规范",
+        "children": [
+          {
+            "title": "BFF_研发规范",
+            "path": "/views/编程基础/前端规范/BFF_研发规范"
+          },
+          {
+            "title": "CR_规范",
+            "path": "/views/编程基础/前端规范/CR_规范"
+          },
+          {
+            "title": "CSS 规范",
+            "path": "/views/编程基础/前端规范/CSS 规范"
+          },
+          {
+            "title": "GIT_规范",
+            "path": "/views/编程基础/前端规范/GIT_规范"
+          },
+          {
+            "title": "HTML 规范",
+            "path": "/views/编程基础/前端规范/HTML 规范"
+          },
+          {
+            "title": "IDE_编辑器规范",
+            "path": "/views/编程基础/前端规范/IDE_编辑器规范"
+          },
+          {
+            "title": "JS 规范",
+            "path": "/views/编程基础/前端规范/JS 规范"
+          },
+          {
+            "title": "UI_设计规范",
+            "path": "/views/编程基础/前端规范/UI_设计规范"
+          },
+          {
+            "title": "前后端协作规范",
+            "path": "/views/编程基础/前端规范/前后端协作规范"
+          },
+          {
+            "title": "前端测试规范",
+            "path": "/views/编程基础/前端规范/前端测试规范"
+          },
+          {
+            "title": "命名规范",
+            "path": "/views/编程基础/前端规范/命名规范"
+          },
+          {
+            "title": "技术栈规范",
+            "path": "/views/编程基础/前端规范/技术栈规范"
+          },
+          {
+            "title": "浏览器兼容规范",
+            "path": "/views/编程基础/前端规范/浏览器兼容规范"
+          },
+          {
+            "title": "编程规范",
+            "path": "/views/编程基础/前端规范/编程规范"
+          },
+          {
+            "title": "附1_BEM_策略及通用类名",
+            "path": "/views/编程基础/前端规范/附1_BEM_策略及通用类名"
+          },
+          {
+            "title": "需求研发流程规范",
+            "path": "/views/编程基础/前端规范/需求研发流程规范"
+          }
+        ]
+      }
+    ],
+    "/views/编程基础/开发软件": [
+      {
+        "title": "开发软件",
+        "children": [
+          {
+            "title": "切图",
+            "children": [
+              {
+                "title": "PhotoShop",
+                "path": "/views/编程基础/开发软件/切图/PhotoShop"
+              },
+              {
+                "title": "PxCook",
+                "path": "/views/编程基础/开发软件/切图/PxCook"
+              },
+              {
+                "title": "Sketch",
+                "path": "/views/编程基础/开发软件/切图/Sketch"
+              }
+            ]
+          },
+          {
+            "title": "编辑器",
+            "children": [
+              {
+                "title": "Markdown",
+                "path": "/views/编程基础/开发软件/编辑器/Markdown"
+              },
+              {
+                "title": "Notepad++",
+                "path": "/views/编程基础/开发软件/编辑器/Notepad++"
+              },
+              {
+                "title": "Submit Text 3",
+                "path": "/views/编程基础/开发软件/编辑器/Submit Text 3"
+              },
+              {
+                "title": "VIM",
+                "path": "/views/编程基础/开发软件/编辑器/VIM"
+              },
+              {
+                "title": "Visual Studio Code",
+                "children": [
+                  {
+                    "title": "VSCode 插件",
+                    "path": "/views/编程基础/开发软件/编辑器/Visual Studio Code/VSCode 插件"
+                  }
+                ]
+              },
+              {
+                "title": "WebStorm",
+                "path": "/views/编程基础/开发软件/编辑器/WebStorm"
+              }
+            ]
+          },
+          {
+            "title": "编辑器及IDE",
+            "children": [
+              {
+                "title": "Notepad++",
+                "path": "/views/编程基础/开发软件/编辑器及IDE/Notepad++"
+              },
+              {
+                "title": "Submit Text 3",
+                "path": "/views/编程基础/开发软件/编辑器及IDE/Submit Text 3"
+              },
+              {
+                "title": "VIM",
+                "path": "/views/编程基础/开发软件/编辑器及IDE/VIM"
+              },
+              {
+                "title": "Visual Studio Code",
+                "path": "/views/编程基础/开发软件/编辑器及IDE/Visual Studio Code"
+              },
+              {
+                "title": "WebStorm",
+                "path": "/views/编程基础/开发软件/编辑器及IDE/WebStorm"
+              }
+            ]
+          },
+          {
+            "title": "调试工具",
+            "children": [
+              {
+                "title": "Apifox",
+                "path": "/views/编程基础/开发软件/调试工具/Apifox"
+              },
+              {
+                "title": "Charles",
+                "path": "/views/编程基础/开发软件/调试工具/Charles"
+              },
+              {
+                "title": "Chrome Dev Tool",
+                "path": "/views/编程基础/开发软件/调试工具/Chrome Dev Tool"
+              },
+              {
+                "title": "Dragonfly",
+                "path": "/views/编程基础/开发软件/调试工具/Dragonfly"
+              },
+              {
+                "title": "Fiddler",
+                "path": "/views/编程基础/开发软件/调试工具/Fiddler"
+              },
+              {
+                "title": "Firebug",
+                "path": "/views/编程基础/开发软件/调试工具/Firebug"
+              },
+              {
+                "title": "Postman",
+                "path": "/views/编程基础/开发软件/调试工具/Postman"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "/views/编程基础/编程思想": [
+      {
+        "title": "编程思想",
+        "children": [
+          {
+            "title": "架构模式",
+            "children": [
+              {
+                "title": "Code Behind",
+                "path": "/views/编程基础/编程思想/架构模式/Code Behind"
+              },
+              {
+                "title": "Code Blocks",
+                "path": "/views/编程基础/编程思想/架构模式/Code Blocks"
+              },
+              {
+                "title": "Flux",
+                "path": "/views/编程基础/编程思想/架构模式/Flux"
+              },
+              {
+                "title": "MVC",
+                "path": "/views/编程基础/编程思想/架构模式/MVC"
+              },
+              {
+                "title": "MVP",
+                "path": "/views/编程基础/编程思想/架构模式/MVP"
+              },
+              {
+                "title": "MVVM",
+                "path": "/views/编程基础/编程思想/架构模式/MVVM"
+              },
+              {
+                "title": "Script",
+                "path": "/views/编程基础/编程思想/架构模式/Script"
+              }
+            ]
+          },
+          {
+            "title": "程序设计",
+            "children": [
+              {
+                "title": "结构化程序",
+                "path": "/views/编程基础/编程思想/程序设计/结构化程序"
+              },
+              {
+                "title": "面向对象程序",
+                "path": "/views/编程基础/编程思想/程序设计/面向对象程序"
+              }
+            ]
+          },
+          {
+            "title": "编程范型",
+            "children": [
+              {
+                "title": "函数式编程",
+                "path": "/views/编程基础/编程思想/编程范型/函数式编程"
+              },
+              {
+                "title": "响应式编程",
+                "path": "/views/编程基础/编程思想/编程范型/响应式编程"
+              },
+              {
+                "title": "模块化规范",
+                "path": "/views/编程基础/编程思想/编程范型/模块化规范"
+              },
+              {
+                "title": "面向切面编程（AOP）",
+                "path": "/views/编程基础/编程思想/编程范型/面向切面编程（AOP）"
+              },
+              {
+                "title": "面向对象编程（OOP）",
+                "path": "/views/编程基础/编程思想/编程范型/面向对象编程（OOP）"
+              }
+            ]
+          },
+          {
+            "title": "设计模式",
+            "children": [
+              {
+                "title": "创建型设计模式",
+                "path": "/views/编程基础/编程思想/设计模式/创建型设计模式"
+              },
+              {
+                "title": "结构型设计模式",
+                "path": "/views/编程基础/编程思想/设计模式/结构型设计模式"
+              },
+              {
+                "title": "行为设计模式",
+                "children": [
+                  {
+                    "title": "命令模式",
+                    "path": "/views/编程基础/编程思想/设计模式/行为设计模式/命令模式"
+                  },
+                  {
+                    "title": "策略模式",
+                    "path": "/views/编程基础/编程思想/设计模式/行为设计模式/策略模式"
+                  },
+                  {
+                    "title": "观察者模式",
+                    "path": "/views/编程基础/编程思想/设计模式/行为设计模式/观察者模式"
+                  }
+                ]
+              },
+              {
+                "title": "行为设计模式",
+                "path": "/views/编程基础/编程思想/设计模式/行为设计模式"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

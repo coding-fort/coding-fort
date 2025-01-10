@@ -1,0 +1,300 @@
+{
+  "nav": [
+    {
+      "text": "软技能",
+      "items": [
+        {
+          "text": "企业管理",
+          "link": "/views/软技能/企业管理/"
+        },
+        {
+          "text": "工作流程",
+          "link": "/views/软技能/工作流程/"
+        },
+        {
+          "text": "技术能力",
+          "link": "/views/软技能/技术能力/"
+        },
+        {
+          "text": "面试题",
+          "link": "/views/软技能/面试题/"
+        },
+        {
+          "text": "项目管理",
+          "link": "/views/软技能/项目管理/"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/软技能/README.md": [
+      {
+        "title": "README.md",
+        "children": []
+      }
+    ],
+    "/views/软技能/企业管理": [
+      {
+        "title": "企业管理",
+        "children": [
+          {
+            "title": "道法术器",
+            "path": "/views/软技能/企业管理/道法术器"
+          }
+        ]
+      }
+    ],
+    "/views/软技能/工作流程": [
+      {
+        "title": "工作流程",
+        "children": [
+          {
+            "title": "SOP 消化新技术或编程思路",
+            "path": "/views/软技能/工作流程/SOP 消化新技术或编程思路"
+          },
+          {
+            "title": "标准操作程序（SOP）",
+            "path": "/views/软技能/工作流程/标准操作程序（SOP）"
+          }
+        ]
+      }
+    ],
+    "/views/软技能/技术能力": [
+      {
+        "title": "技术能力",
+        "children": [
+          {
+            "title": "学习能力",
+            "children": [
+              {
+                "title": "思维认知",
+                "path": "/views/软技能/技术能力/学习能力/思维认知"
+              }
+            ]
+          },
+          {
+            "title": "技术能力",
+            "children": [
+              {
+                "title": "技术能力",
+                "path": "/views/软技能/技术能力/技术能力/技术能力"
+              },
+              {
+                "title": "架构设计能力",
+                "path": "/views/软技能/技术能力/技术能力/架构设计能力"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "/views/软技能/面试题": [
+      {
+        "title": "面试题",
+        "children": [
+          {
+            "title": "Vue 相关",
+            "children": [
+              {
+                "title": "01_生命周期",
+                "path": "/views/软技能/面试题/Vue 相关/01_生命周期"
+              },
+              {
+                "title": "02_双向数据绑定",
+                "path": "/views/软技能/面试题/Vue 相关/02_双向数据绑定"
+              },
+              {
+                "title": "03_组件通信方式",
+                "path": "/views/软技能/面试题/Vue 相关/03_组件通信方式"
+              },
+              {
+                "title": "04_路由守卫",
+                "path": "/views/软技能/面试题/Vue 相关/04_路由守卫"
+              },
+              {
+                "title": "05_computed 和 watch 的区别",
+                "path": "/views/软技能/面试题/Vue 相关/05_computed 和 watch 的区别"
+              },
+              {
+                "title": "06_diff 算法",
+                "path": "/views/软技能/面试题/Vue 相关/06_diff 算法"
+              },
+              {
+                "title": "07_异步组件",
+                "path": "/views/软技能/面试题/Vue 相关/07_异步组件"
+              },
+              {
+                "title": "08_SSR（服务器端渲染）",
+                "path": "/views/软技能/面试题/Vue 相关/08_SSR（服务器端渲染）"
+              },
+              {
+                "title": "09_插件系统",
+                "path": "/views/软技能/面试题/Vue 相关/09_插件系统"
+              },
+              {
+                "title": "10_过渡动画",
+                "path": "/views/软技能/面试题/Vue 相关/10_过渡动画"
+              },
+              {
+                "title": "11_错误处理",
+                "path": "/views/软技能/面试题/Vue 相关/11_错误处理"
+              },
+              {
+                "title": "12_keep-alive 组件",
+                "path": "/views/软技能/面试题/Vue 相关/12_keep-alive 组件"
+              },
+              {
+                "title": "13_自定义指令",
+                "path": "/views/软技能/面试题/Vue 相关/13_自定义指令"
+              },
+              {
+                "title": "14_性能优化",
+                "path": "/views/软技能/面试题/Vue 相关/14_性能优化"
+              },
+              {
+                "title": "Vue",
+                "path": "/views/软技能/面试题/Vue 相关/Vue"
+              },
+              {
+                "title": "[面试15] 说说你对Vue2 与 Vue3 的区别的理解",
+                "path": "/views/软技能/面试题/Vue 相关/[面试15] 说说你对Vue2 与 Vue3 的区别的理解"
+              }
+            ]
+          },
+          {
+            "title": "Vue",
+            "path": "/views/软技能/面试题/Vue"
+          },
+          {
+            "title": "Webpack 相关",
+            "children": [
+              {
+                "title": "1_概念",
+                "path": "/views/软技能/面试题/Webpack 相关/1_概念"
+              },
+              {
+                "title": "2_webpack的常用loader",
+                "path": "/views/软技能/面试题/Webpack 相关/2_webpack的常用loader"
+              },
+              {
+                "title": "3_webpack的常用plugin",
+                "path": "/views/软技能/面试题/Webpack 相关/3_webpack的常用plugin"
+              },
+              {
+                "title": "4_如何利用webpack来优化前端性能",
+                "path": "/views/软技能/面试题/Webpack 相关/4_如何利用webpack来优化前端性能"
+              },
+              {
+                "title": "5_Webpack如何配置压缩代码",
+                "path": "/views/软技能/面试题/Webpack 相关/5_Webpack如何配置压缩代码"
+              },
+              {
+                "title": "6_webpack的热更新原理",
+                "path": "/views/软技能/面试题/Webpack 相关/6_webpack的热更新原理"
+              },
+              {
+                "title": "7_webpack配置",
+                "path": "/views/软技能/面试题/Webpack 相关/7_webpack配置"
+              },
+              {
+                "title": "8_介绍一下webpack scope hoisting",
+                "path": "/views/软技能/面试题/Webpack 相关/8_介绍一下webpack scope hoisting"
+              }
+            ]
+          },
+          {
+            "title": "Webpack",
+            "path": "/views/软技能/面试题/Webpack"
+          },
+          {
+            "title": "模块化",
+            "children": [
+              {
+                "title": "1_CommonJS 与ES Module 区别",
+                "path": "/views/软技能/面试题/模块化/1_CommonJS 与ES Module 区别"
+              },
+              {
+                "title": "2_ES Module export 与export default 区别",
+                "path": "/views/软技能/面试题/模块化/2_ES Module export 与export default 区别"
+              },
+              {
+                "title": "3_代码题",
+                "path": "/views/软技能/面试题/模块化/3_代码题"
+              }
+            ]
+          },
+          {
+            "title": "面试目录",
+            "path": "/views/软技能/面试题/面试目录"
+          }
+        ]
+      }
+    ],
+    "/views/软技能/项目管理": [
+      {
+        "title": "项目管理",
+        "children": [
+          {
+            "title": "团队管理",
+            "children": [
+              {
+                "title": "人员管理",
+                "path": "/views/软技能/项目管理/团队管理/人员管理"
+              },
+              {
+                "title": "团队协作",
+                "path": "/views/软技能/项目管理/团队管理/团队协作"
+              }
+            ]
+          },
+          {
+            "title": "文档管理",
+            "children": [
+              {
+                "title": "文档管理",
+                "path": "/views/软技能/项目管理/文档管理/文档管理"
+              }
+            ]
+          },
+          {
+            "title": "项目管理",
+            "children": [
+              {
+                "title": "软件开发生命周期",
+                "path": "/views/软技能/项目管理/项目管理/软件开发生命周期"
+              },
+              {
+                "title": "项目复盘",
+                "path": "/views/软技能/项目管理/项目管理/项目复盘"
+              },
+              {
+                "title": "项目总结",
+                "path": "/views/软技能/项目管理/项目管理/项目总结"
+              },
+              {
+                "title": "项目沟通",
+                "path": "/views/软技能/项目管理/项目管理/项目沟通"
+              },
+              {
+                "title": "项目监控",
+                "path": "/views/软技能/项目管理/项目管理/项目监控"
+              },
+              {
+                "title": "项目计划",
+                "path": "/views/软技能/项目管理/项目管理/项目计划"
+              },
+              {
+                "title": "项目进度",
+                "path": "/views/软技能/项目管理/项目管理/项目进度"
+              },
+              {
+                "title": "项目风险",
+                "path": "/views/软技能/项目管理/项目管理/项目风险"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

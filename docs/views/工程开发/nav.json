@@ -1,0 +1,421 @@
+{
+  "nav": [
+    {
+      "text": "工程开发",
+      "items": [
+        {
+          "text": "CI CD",
+          "link": "/views/工程开发/CI CD/"
+        },
+        {
+          "text": "CSS 工程化",
+          "link": "/views/工程开发/CSS 工程化/"
+        },
+        {
+          "text": "JS 工程化",
+          "link": "/views/工程开发/JS 工程化/"
+        },
+        {
+          "text": "代码质量",
+          "link": "/views/工程开发/代码质量/"
+        },
+        {
+          "text": "依赖管理",
+          "link": "/views/工程开发/依赖管理/"
+        },
+        {
+          "text": "构建工具",
+          "link": "/views/工程开发/构建工具/"
+        },
+        {
+          "text": "模块化",
+          "link": "/views/工程开发/模块化/"
+        },
+        {
+          "text": "版本管理",
+          "link": "/views/工程开发/版本管理/"
+        },
+        {
+          "text": "语言增强",
+          "link": "/views/工程开发/语言增强/"
+        },
+        {
+          "text": "转换器",
+          "link": "/views/工程开发/转换器/"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/工程开发/CI CD": [
+      {
+        "title": "CI CD",
+        "children": [
+          {
+            "title": "Git web hook",
+            "path": "/views/工程开发/CI CD/Git web hook"
+          },
+          {
+            "title": "Jenkins",
+            "path": "/views/工程开发/CI CD/Jenkins"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/CSS 工程化": [
+      {
+        "title": "CSS 工程化",
+        "children": [
+          {
+            "title": "CSS Module",
+            "path": "/views/工程开发/CSS 工程化/CSS Module"
+          },
+          {
+            "title": "Less",
+            "path": "/views/工程开发/CSS 工程化/Less"
+          },
+          {
+            "title": "PostCSS",
+            "path": "/views/工程开发/CSS 工程化/PostCSS"
+          },
+          {
+            "title": "Sass",
+            "path": "/views/工程开发/CSS 工程化/Sass"
+          },
+          {
+            "title": "Stylus",
+            "path": "/views/工程开发/CSS 工程化/Stylus"
+          },
+          {
+            "title": "自动厂商前缀",
+            "path": "/views/工程开发/CSS 工程化/自动厂商前缀"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/JS 工程化": [
+      {
+        "title": "JS 工程化",
+        "children": [
+          {
+            "title": "Babel",
+            "path": "/views/工程开发/JS 工程化/Babel"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/代码质量": [
+      {
+        "title": "代码质量",
+        "children": [
+          {
+            "title": "E2E_测试",
+            "children": [
+              {
+                "title": "Cypress",
+                "path": "/views/工程开发/代码质量/E2E_测试/Cypress"
+              },
+              {
+                "title": "Nightwatch",
+                "path": "/views/工程开发/代码质量/E2E_测试/Nightwatch"
+              }
+            ]
+          },
+          {
+            "title": "E2E测试",
+            "children": [
+              {
+                "title": "Cypress",
+                "path": "/views/工程开发/代码质量/E2E测试/Cypress"
+              },
+              {
+                "title": "Nightwatch",
+                "path": "/views/工程开发/代码质量/E2E测试/Nightwatch"
+              }
+            ]
+          },
+          {
+            "title": "单元测试",
+            "children": [
+              {
+                "title": "Chai Expect should",
+                "path": "/views/工程开发/代码质量/单元测试/Chai Expect should"
+              },
+              {
+                "title": "Chai,Expect,should",
+                "path": "/views/工程开发/代码质量/单元测试/Chai,Expect,should"
+              },
+              {
+                "title": "Istanbul",
+                "path": "/views/工程开发/代码质量/单元测试/Istanbul"
+              },
+              {
+                "title": "Karma",
+                "path": "/views/工程开发/代码质量/单元测试/Karma"
+              },
+              {
+                "title": "Sinon",
+                "path": "/views/工程开发/代码质量/单元测试/Sinon"
+              },
+              {
+                "title": "Unit Mocha QUnit Jasmine Jest",
+                "path": "/views/工程开发/代码质量/单元测试/Unit Mocha QUnit Jasmine Jest"
+              },
+              {
+                "title": "Unit,Mocha,QUnit,Jasmine,Jest",
+                "path": "/views/工程开发/代码质量/单元测试/Unit,Mocha,QUnit,Jasmine,Jest"
+              }
+            ]
+          },
+          {
+            "title": "质量检测",
+            "children": [
+              {
+                "title": "JSLint JSHint TSLint ESLint",
+                "path": "/views/工程开发/代码质量/质量检测/JSLint JSHint TSLint ESLint"
+              },
+              {
+                "title": "JSLint,JSHint,TSLint,ESLint",
+                "path": "/views/工程开发/代码质量/质量检测/JSLint,JSHint,TSLint,ESLint"
+              },
+              {
+                "title": "Sonar",
+                "path": "/views/工程开发/代码质量/质量检测/Sonar"
+              },
+              {
+                "title": "StyleLint",
+                "path": "/views/工程开发/代码质量/质量检测/StyleLint"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/依赖管理": [
+      {
+        "title": "依赖管理",
+        "children": [
+          {
+            "title": "Lema",
+            "path": "/views/工程开发/依赖管理/Lema"
+          },
+          {
+            "title": "Yarn",
+            "path": "/views/工程开发/依赖管理/Yarn"
+          },
+          {
+            "title": "npm",
+            "path": "/views/工程开发/依赖管理/npm"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/构建工具": [
+      {
+        "title": "构建工具",
+        "children": [
+          {
+            "title": "Grunt",
+            "path": "/views/工程开发/构建工具/Grunt"
+          },
+          {
+            "title": "Gulp",
+            "path": "/views/工程开发/构建工具/Gulp"
+          },
+          {
+            "title": "Rollup",
+            "path": "/views/工程开发/构建工具/Rollup"
+          },
+          {
+            "title": "Vite",
+            "path": "/views/工程开发/构建工具/Vite"
+          },
+          {
+            "title": "Webpack 相关",
+            "children": [
+              {
+                "title": "webpack 版本",
+                "path": "/views/工程开发/构建工具/Webpack 相关/webpack 版本"
+              },
+              {
+                "title": "作用域提升",
+                "path": "/views/工程开发/构建工具/Webpack 相关/作用域提升"
+              },
+              {
+                "title": "性能优化",
+                "path": "/views/工程开发/构建工具/Webpack 相关/性能优化"
+              }
+            ]
+          },
+          {
+            "title": "Webpack",
+            "path": "/views/工程开发/构建工具/Webpack"
+          },
+          {
+            "title": "构建工具对比",
+            "path": "/views/工程开发/构建工具/构建工具对比"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/模块化": [
+      {
+        "title": "模块化",
+        "children": [
+          {
+            "title": "CommonJS",
+            "path": "/views/工程开发/模块化/CommonJS"
+          },
+          {
+            "title": "ES Module",
+            "path": "/views/工程开发/模块化/ES Module"
+          },
+          {
+            "title": "ESLint",
+            "path": "/views/工程开发/模块化/ESLint"
+          },
+          {
+            "title": "RequireJS",
+            "path": "/views/工程开发/模块化/RequireJS"
+          },
+          {
+            "title": "SeaJS",
+            "path": "/views/工程开发/模块化/SeaJS"
+          },
+          {
+            "title": "包管理",
+            "children": [
+              {
+                "title": "Npm",
+                "path": "/views/工程开发/模块化/包管理/Npm"
+              },
+              {
+                "title": "Npx",
+                "path": "/views/工程开发/模块化/包管理/Npx"
+              },
+              {
+                "title": "Yarn",
+                "path": "/views/工程开发/模块化/包管理/Yarn"
+              },
+              {
+                "title": "cnpm",
+                "path": "/views/工程开发/模块化/包管理/cnpm"
+              },
+              {
+                "title": "curl",
+                "path": "/views/工程开发/模块化/包管理/curl"
+              },
+              {
+                "title": "npm与yarn对比",
+                "path": "/views/工程开发/模块化/包管理/npm与yarn对比"
+              },
+              {
+                "title": "nvm",
+                "path": "/views/工程开发/模块化/包管理/nvm"
+              },
+              {
+                "title": "package_json",
+                "path": "/views/工程开发/模块化/包管理/package_json"
+              },
+              {
+                "title": "pnpm",
+                "path": "/views/工程开发/模块化/包管理/pnpm"
+              },
+              {
+                "title": "wget",
+                "path": "/views/工程开发/模块化/包管理/wget"
+              },
+              {
+                "title": "包管理器",
+                "path": "/views/工程开发/模块化/包管理/包管理器"
+              }
+            ]
+          },
+          {
+            "title": "模块联邦",
+            "path": "/views/工程开发/模块化/模块联邦"
+          },
+          {
+            "title": "浏览器端模块化难题",
+            "path": "/views/工程开发/模块化/浏览器端模块化难题"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/版本管理": [
+      {
+        "title": "版本管理",
+        "children": [
+          {
+            "title": "Git",
+            "path": "/views/工程开发/版本管理/Git"
+          },
+          {
+            "title": "Svn",
+            "path": "/views/工程开发/版本管理/Svn"
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/语言增强": [
+      {
+        "title": "语言增强",
+        "children": [
+          {
+            "title": "CSS",
+            "children": [
+              {
+                "title": "Post css",
+                "path": "/views/工程开发/语言增强/CSS/Post css"
+              },
+              {
+                "title": "Sass(Scss)",
+                "path": "/views/工程开发/语言增强/CSS/Sass(Scss)"
+              },
+              {
+                "title": "Stylus",
+                "path": "/views/工程开发/语言增强/CSS/Stylus"
+              },
+              {
+                "title": "less",
+                "path": "/views/工程开发/语言增强/CSS/less"
+              }
+            ]
+          },
+          {
+            "title": "JavaScript",
+            "children": [
+              {
+                "title": "CoffeeScript",
+                "path": "/views/工程开发/语言增强/JavaScript/CoffeeScript"
+              },
+              {
+                "title": "Flow",
+                "path": "/views/工程开发/语言增强/JavaScript/Flow"
+              },
+              {
+                "title": "TypeScript",
+                "path": "/views/工程开发/语言增强/JavaScript/TypeScript"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "/views/工程开发/转换器": [
+      {
+        "title": "转换器",
+        "children": [
+          {
+            "title": "Babel",
+            "path": "/views/工程开发/转换器/Babel"
+          },
+          {
+            "title": "Traceur",
+            "path": "/views/工程开发/转换器/Traceur"
+          }
+        ]
+      }
+    ]
+  }
+}
